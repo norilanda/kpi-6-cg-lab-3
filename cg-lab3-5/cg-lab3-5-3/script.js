@@ -68,8 +68,8 @@ const cone2 = new THREE.Mesh(coneGeometry, materials);
 scene.add(cone1);
 scene.add(cone2);
 
-cone1.position.y = 1;
-cone2.position.y = -1;
+cone1.position.y = -0.3;
+cone2.position.y = 0.3;
 cone2.rotation.x = Math.PI;
 
 window.addEventListener('resize', () => {
